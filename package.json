@@ -1,0 +1,33 @@
+{
+  "name": "wallet_service",
+  "version": "1.0.0",
+  "description": "Node Microservice - Wallet",
+  "main": "wallet_service.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/armandopadilla/wallet_service.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/armandopadilla/wallet_service/issues"
+  },
+  "homepage": "https://github.com/armandopadilla/wallet_service#readme",
+  "dependencies": {
+    "async": "^2.6.0",
+    "aws-sdk": "^2.224.1",
+    "fastify": "^1.2.1",
+    "joi": "^13.1.2",
+    "knex": "^0.14.6",
+    "moment": "^2.22.1",
+    "mysql2": "^1.5.3",
+    "objection": "^1.1.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  }
+}
